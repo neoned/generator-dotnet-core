@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infra.Consuming.SQS" Version="1.0.3" />
+    <PackageReference Include="Infra.Publishing.SQS" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="7.5.2" />
+    <PackageReference Include="Infra.Application" Version="1.6.0" />
+    <PackageReference Include="Infra.AspNetCore" Version="2.15.15" />
+    <PackageReference Include="Infra.Configuration" Version="2.2.1" />
+    <PackageReference Include="Infra.Json" Version="1.0.2" />
+    <PackageReference Include="Infra.Logging" Version="2.11.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\<%= __subsystem %>.<%= __appName %>.Domain\<%= __subsystem %>.<%= __appName %>.Domain.csproj" />
+    <ProjectReference Include="..\<%= __subsystem %>.<%= __appName %>.Repository.Mongo\<%= __subsystem %>.<%= __appName %>.Repository.Mongo.csproj" />
+  </ItemGroup>
+
+</Project>

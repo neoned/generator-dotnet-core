@@ -13,7 +13,11 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
+    "dotnet-core",
+    "dotnetcore",
+    "aspnet",
+    "aspnetcore",
+    "aspnet-core",
     "yeoman-generator"
   ],
   "devDependencies": {
@@ -33,8 +37,10 @@
     "npm": ">= 4.0.0"
   },
   "dependencies": {
-    "yeoman-generator": "^2.0.1",
     "chalk": "^2.1.0",
+    "uuid": "^3.2.1",
+    "vs_projectname": "^1.0.2",
+    "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
   "jest": {

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  namespace.applicationname.host:
+    image: ${DOCKER_REGISTRY}namespaceapplicationnamehost
+    build:
+      context: .
+      dockerfile: src/<%= __subsystem %>.<%= __appName %>.Host/Dockerfile

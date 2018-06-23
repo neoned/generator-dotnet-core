@@ -1,0 +1,26 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:64014/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "<%= __subsystem %>.<%= __appName %>.Host": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Mongo:ConnectionString": "mongodb://localhost:27017",
+        "AmazonSQS:AccessKey": "access_key",
+        "AmazonSQS:SecretKey": "secret_key",
+        "AmazonSQS:Region": "eu-west-1",
+        "AmazonSQS:ServiceUrl": "http://localhost:4100"
+      },
+      "applicationUrl": "http://localhost:64015/"
+    }
+  }
+}

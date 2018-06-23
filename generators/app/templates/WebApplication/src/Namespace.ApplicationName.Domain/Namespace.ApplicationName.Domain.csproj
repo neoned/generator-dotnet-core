@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infra.Publishing" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\<%= __subsystem %>.<%= __appName %>.Domain.Abstractions\<%= __subsystem %>.<%= __appName %>.Domain.Abstractions.csproj" />
+    <ProjectReference Include="..\<%= __subsystem %>.<%= __appName %>.Domain.Entities\<%= __subsystem %>.<%= __appName %>.Domain.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
