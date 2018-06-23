@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Maor Davidov",
+      "authorEmail": "maordavidov@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
