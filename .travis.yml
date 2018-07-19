@@ -1,4 +1,11 @@
 language: node_js
 node_js:
   - v8
+cache:
+  directories:
+    - "node_modules"
 script: echo "npm test temporarily disabled"
+deploy:
+  provider: npm
+  email: "maordavidov@gmail.com"
+  api_key: $NPM_API_KEY
