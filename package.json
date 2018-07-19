@@ -1,12 +1,11 @@
 {
   "name": "generator-dotnet-core",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": ".NET Core project template generator",
-  "homepage": "",
   "author": {
     "name": "Maor Davidov",
     "email": "maordavidov@gmail.com",
-    "url": ""
+    "url": "https://github.com/maordavidov/generator-dotnet-core"
   },
   "files": [
     "generators"
