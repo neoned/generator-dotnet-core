@@ -1,4 +1,4 @@
-# @maordavidov/generator-dotnet [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# maordavidov/generator-dotnet [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > .NET Core project template generator
 
 ## Installation
