@@ -17,7 +17,9 @@
     "aspnet",
     "aspnetcore",
     "aspnet-core",
-    "yeoman-generator"
+    "yeoman-generator",
+    "dotnet",
+    "dotnet core"
   ],
   "devDependencies": {
     "yeoman-test": "^1.7.0",
