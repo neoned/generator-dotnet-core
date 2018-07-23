@@ -1,6 +1,10 @@
 # @maordavidov/generator-dotnet [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > .NET Core project template generator
 
+## Prerequisites
+
+Myget repository contains my infrastructure: https://www.myget.org/F/maordavidov/api/v3/index.json
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and @maordavidov/generator-dotnet using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
