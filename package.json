@@ -7,6 +7,9 @@
     "email": "maordavidov@gmail.com",
     "url": "https://github.com/maordavidov/generator-dotnet-core"
   },
+  "publishConfig":{
+    "access": "public"
+  },
   "files": [
     "generators"
   ],
