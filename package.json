@@ -1,6 +1,6 @@
 {
   "name": "@maordavidov/generator-dotnet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": ".NET Core project template generator",
   "author": {
     "name": "Maor Davidov",
@@ -85,6 +85,6 @@
       "prettier"
     ]
   },
-  "repository": "maordavidov/generator-dotnet-core",
+  "repository": "@maordavidov/generator-dotnet",
   "license": "MIT"
 }
