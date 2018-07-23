@@ -29,7 +29,7 @@ MIT © [Maor Davidov]()
 
 
 [npm-image]: https://badge.fury.io/js/generator-dotnet-core.svg
-[npm-url]: https://npmjs.org/package/generator-dotnet-core
+[npm-url]: https://npmjs.org/package/@maordavidov/generator-dotnet
 [travis-image]: https://travis-ci.org/maordavidov/generator-dotnet-core.svg?branch=master
 [travis-url]: https://travis-ci.org/maordavidov/generator-dotnet-core
 [daviddm-image]: https://david-dm.org/maordavidov/generator-dotnet-core.svg?theme=shields.io
