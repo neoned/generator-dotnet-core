@@ -1,4 +1,4 @@
-#generator-dotnet [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# @maordavidov/generator-dotnet [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > .NET Core project template generator
 
 ## Installation
@@ -28,9 +28,9 @@ yo @maordavidov/dotnet
 MIT © [Maor Davidov]()
 
 
-[npm-image]: https://badge.fury.io/js/@maordavidov/generator-dotnet.svg
-[npm-url]: https://npmjs.org/package/@maordavidov/generator-dotnet
-[travis-image]: https://travis-ci.org/maordavidov/@maordavidov/generator-dotnet.svg?branch=master
-[travis-url]: https://travis-ci.org/maordavidov/@maordavidov/generator-dotnet
-[daviddm-image]: https://david-dm.org/maordavidov/@maordavidov/generator-dotnet.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/maordavidov/@maordavidov/generator-dotnet
+[npm-image]: https://badge.fury.io/js/generator-dotnet-core.svg
+[npm-url]: https://npmjs.org/package/generator-dotnet-core
+[travis-image]: https://travis-ci.org/maordavidov/generator-dotnet-core.svg?branch=master
+[travis-url]: https://travis-ci.org/maordavidov/generator-dotnet-core
+[daviddm-image]: https://david-dm.org/maordavidov/generator-dotnet-core.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/maordavidov/generator-dotnet-core
