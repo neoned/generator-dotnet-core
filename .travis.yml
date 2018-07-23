@@ -4,9 +4,14 @@ node_js:
 
 script: echo "npm test temporarily disabled"
 
+before_deploy: "echo 'Before Deploy'"
+
 deploy:
   provider: npm
   email: "maordavidov@gmail.com"
   api_key: $NPM_TOKEN
   on:
     tags: false
+  tag: next
+
+after_deploy: "echo 'After Deploy'"
