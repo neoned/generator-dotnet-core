@@ -42,7 +42,7 @@ module.exports = class extends Generator {
         message: 'Choose template from the following list',
         choices: [
           {
-            name: 'Web Application (with SQS support)',
+            name: 'Web Application (with SQS support & RabbitMQ)',
             value: 'WebApplication'
           }
         ]
@@ -92,17 +92,17 @@ module.exports = class extends Generator {
       this.templatedata
     );
 
-    this.fs.copyTpl(
-      this.templatePath(this.template, `docker-compose.yml`),
-      this.destinationPath(this.appName, `docker-compose.yml`),
-      this.templatedata
-    );
+    // this.fs.copyTpl(
+    //   this.templatePath(this.template, `docker-compose.yml`),
+    //   this.destinationPath(this.appName, `docker-compose.yml`),
+    //   this.templatedata
+    // );
 
-    this.fs.copyTpl(
-      this.templatePath(this.template, `docker-compose.dcproj`),
-      this.destinationPath(this.appName, `docker-compose.dcproj`),
-      this.templatedata
-    );
+    // this.fs.copyTpl(
+    //   this.templatePath(this.template, `docker-compose.dcproj`),
+    //   this.destinationPath(this.appName, `docker-compose.dcproj`),
+    //   this.templatedata
+    // );
 
     this.fs.copyTpl(
       this.templatePath(this.template, `gitignore`),
