@@ -6,7 +6,7 @@
     <ProjectGuid>30f416db-1e59-4a4d-98a1-8c682c115cde</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
-    <DockerServiceName>namespace.applicationname.host</DockerServiceName>
+    <DockerServiceName><%= __subsystem %>.<%= __appName %>.host</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

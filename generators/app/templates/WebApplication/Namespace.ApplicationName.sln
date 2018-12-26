@@ -33,8 +33,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "<%= __subsystem %>.<%= __ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "<%= __subsystem %>.<%= __appName %>.WebApi.Contracts", "src\<%= __subsystem %>.<%= __appName %>.WebApi.Contracts\<%= __subsystem %>.<%= __appName %>.WebApi.Contracts.csproj", "{37F55D2E-82A3-47C5-849C-4CEF5ED7831B}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{30F416DB-1E59-4A4D-98A1-8C682C115CDE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,10 +83,6 @@ Global
 		{37F55D2E-82A3-47C5-849C-4CEF5ED7831B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37F55D2E-82A3-47C5-849C-4CEF5ED7831B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37F55D2E-82A3-47C5-849C-4CEF5ED7831B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{30F416DB-1E59-4A4D-98A1-8C682C115CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30F416DB-1E59-4A4D-98A1-8C682C115CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30F416DB-1E59-4A4D-98A1-8C682C115CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30F416DB-1E59-4A4D-98A1-8C682C115CDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

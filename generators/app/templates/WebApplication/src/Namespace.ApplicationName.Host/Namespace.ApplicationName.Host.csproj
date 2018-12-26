@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
@@ -10,16 +10,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Infra.Consuming.SQS" Version="1.0.3" />
-    <PackageReference Include="Infra.Publishing.SQS" Version="1.0.2" />
+    <PackageReference Include="Infra.Consuming.RabbitMQ" Version="1.1.0" />
+    <PackageReference Include="Infra.Consuming.SQS" Version="1.2.0" />
+    <PackageReference Include="Infra.Publishing.RabbitMQ" Version="1.2.0" />
+    <PackageReference Include="Infra.Publishing.SQS" Version="1.3.0" />
+    <PackageReference Include="Infra.RabbitMQ" Version="1.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
-    <PackageReference Include="FluentValidation.AspNetCore" Version="7.5.2" />
-    <PackageReference Include="Infra.Application" Version="1.6.0" />
-    <PackageReference Include="Infra.AspNetCore" Version="2.15.15" />
-    <PackageReference Include="Infra.Configuration" Version="2.2.1" />
-    <PackageReference Include="Infra.Json" Version="1.0.2" />
-    <PackageReference Include="Infra.Logging" Version="2.11.0" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.1.2" />
+    <PackageReference Include="Infra.Application" Version="1.7.0" />
+    <PackageReference Include="Infra.AspNetCore" Version="2.16.0" />
+    <PackageReference Include="Infra.Configuration" Version="2.3.0" />
+    <PackageReference Include="Infra.Json" Version="1.1.0" />
+    <PackageReference Include="Infra.Logging" Version="2.12.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>

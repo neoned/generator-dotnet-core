@@ -1,17 +1,9 @@
 {
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:64014/",
-      "sslPort": 0
-    }
-  },
   "profiles": {
     "<%= __subsystem %>.<%= __appName %>.Host": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "Mongo:ConnectionString": "mongodb://localhost:27017",

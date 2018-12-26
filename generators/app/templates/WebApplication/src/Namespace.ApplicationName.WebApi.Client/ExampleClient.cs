@@ -12,11 +12,9 @@ namespace <%= __subsystem %>.<%= __appName %>.WebApi.Client
     {
         private ApiClient _client;
 
-        public ExampleClient(ILogger<ExampleClient> logger,
-                             IApplicationContext context,
-                             string serviceBaseAddress)
+        public ExampleClient(ApiClient apiClient)
         {
-            _client = new ApiClient(logger, context, serviceBaseAddress);
+            _client = apiClient;
         }
     }
 }

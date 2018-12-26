@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  namespace.applicationname.host:
+  <%= __subsystem %>.<%= __appName %>.host:
     image: ${DOCKER_REGISTRY}namespaceapplicationnamehost
     build:
       context: .
